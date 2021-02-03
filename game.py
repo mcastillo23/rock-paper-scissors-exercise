@@ -1,5 +1,6 @@
 # game.py
 
+import random
 
 print("-------------------")
 print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
@@ -9,18 +10,21 @@ print("-------------------")
 #asking for an input
 #
 
-x = input("Please choose either 'rock', 'paper', or 'scissors':")
+user_choice = input("Please choose either 'rock', 'paper', or 'scissors':")
 
-print("You chose: ", x) 
-
-
-exit()
+print(f"You chose: {user_choice}") 
 
 #
 #simulating a computer input
 #
 
-print("The computer chose: 'paper'")
+options = ["rock", "paper", "scissors"]
+computer_choice = random.choice(options)
+
+print(f"The computer chose: {computer_choice}")
+
+exit()
+
 
 #
 #determining who won
