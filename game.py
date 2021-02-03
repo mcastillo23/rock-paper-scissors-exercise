@@ -20,7 +20,7 @@ user_choice = input("Please choose either 'rock', 'paper', or 'scissors':")
 #stop the program  (not try to determine the winner)
 #... if the user choice is invalid
 
-user_choice.lower()
+user_choice = user_choice.lower()
 
 if user_choice in options:
     pass
