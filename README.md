@@ -13,8 +13,6 @@ Fork this [remote repository](https://github.com/mcastillo23/rock-paper-scissors
 
 Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
 
-Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
-
 ```sh
 cd rock-papers-python-scissors-excercise
 ```

@@ -5,10 +5,10 @@ import random
 from dotenv import load_dotenv
 
 load_dotenv()
-PlAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
+PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
 
 print("-------------------")
-print("Welcome '{PLAYER_NAME}' to my Rock-Paper-Scissors game...")
+print(f"Welcome '{PLAYER_NAME}' to my Rock-Paper-Scissors game...")
 print("-------------------")
 
 #
